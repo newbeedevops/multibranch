@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Branch Develop') {
+        stage('Branch Test') {
             steps {
-                echo 'I am in the Develop branch..'
+                echo 'I am in the Test branch..'
             }
         }
      }
